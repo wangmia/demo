@@ -1,5 +1,5 @@
 /*
-	利用冒泡排序对数组sao进行正序排序。
+    利用冒泡排序对数组sao进行正序排序。
 */
 
 #include <stdio.h>
@@ -21,5 +21,7 @@ int main() {
     for (int j = 0; j < 5; j++) {
         printf("%d ", sao[j]);
     }
+
+    putchar('\n');
 
 }
